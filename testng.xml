@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+
+    <test name="Test">
+    <groups>
+        <run>
+            <include name="finalproject" />
+            <!--<exclude name="HeaderTests" />-->
+        </run>
+    </groups>
+        <classes>
+            <class name="finalproject.fp1"/>
+            <class name="finalproject.projectactivity_7"/>
+            <class name="finalproject.projectactivity_8"/>
+            <class name="finalproject.projectactivity_9"/>
+            <class name="finalproject.projectactivity_10"/>
+            <class name="finalproject.projectactivity_11"/>
+            
+            </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+
